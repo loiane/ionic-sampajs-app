@@ -1,0 +1,37 @@
+
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Sobre</ion-title>
+  <ion-buttons end>
+    <button (click)="presentPopover($event)">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-navbar>
+
+<ion-content>
+  <div class="about-header">
+    <img src="img/sampaJSLogo.png">
+  </div>
+  <div padding class="about-info">
+    <h4>Sampa.JS</h4>
+
+    <ion-list no-lines>
+      <ion-item>
+        <ion-icon name="calendar" item-left></ion-icon>
+        <ion-label>Data</ion-label>
+        <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="conferenceDate"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="pin" item-left></ion-icon>
+        <ion-label>Local</ion-label>
+        <ion-label text-right>PUC Consolação - São Paulo</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <p>Essa app foi criada com o objetivo de demonstrar as funcionalidades do Ionic2.</p>
+  </div>
+</ion-content>

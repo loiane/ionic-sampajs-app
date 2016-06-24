@@ -1,0 +1,32 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Palestrantes</ion-title>
+</ion-navbar>
+
+<ion-content class="outer-content speaker-list">
+  <ion-card *ngFor="let speaker of speakers" class="speaker">
+
+    <ion-card-header>
+      <ion-item>
+        <ion-avatar item-left>
+          <img [src]="speaker.profilePic">
+        </ion-avatar>
+        {{speaker.name}}
+      </ion-item>
+    </ion-card-header>
+
+    <ion-card-content class="outer-content">
+      <ion-list>
+        <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
+          <h3>{{session.name}}</h3>
+        </button>
+        <button ion-item (click)="goToSpeakerDetail(speaker)">
+          <h3>Mini bio: {{speaker.name}}</h3>
+        </button>
+      </ion-list>
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

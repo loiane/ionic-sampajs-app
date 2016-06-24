@@ -1,0 +1,208 @@
+{
+
+  "schedule": [
+    {
+      "date": "2016-06-25",
+      "groups": [
+        {
+          "time": "25/Junho/2016",
+          "sessions": [
+            {
+              "name": "Credenciamento / Coffee",
+              "description": "Credenciamento / Coffee",
+              "timeStart": "9:00 am",
+              "timeEnd": "9:30 am",
+              "tracks": ["evento"]
+            },
+            {
+              "name": "Abertura do evento",
+              "description": "Abertura do evento",
+              "timeStart": "9:30 am",
+              "timeEnd": "10:00 am",
+              "tracks": ["evento"]
+            },
+            {
+              "name": "Gerenciando fluxo assíncrono no NodeJS",
+              "description": "Ao construir aplicações Javascript, devemos nos preocupar com alguns fatores quando falamos do workflow da linguagem. Diferente das linguagens sequenciais, os resultados tendem a ser inesperados (tempos de execução diferentes) pelo fato de ser assincrono e dependerem de callbacks, aprenderemos nesta palestra as boas práticas e soluções para criação de aplicações NodeJS.",
+              "speakerNames": ["Erick Wendel"],
+              "timeStart": "10:00 am",
+              "timeEnd": "10:30 am",
+              "tracks": ["NodeJS"]
+            },
+            {
+              "name": "A 'TRETA' com streaming de video na web",
+              "description": "Passar uma visão ampla do problema que até hoje não foi padronizado pelo html, que é criar aplicações de RTC, VOD e LIVE VIDEO, compatíveis com os principais browsers e sistemas operacionais. Mostrar como desenvolver a aplicação mais perto de um 'LDC' (Least Common Denominator) para resolver essa 'treta', falar os formatos aceitos em cada situação e uma demonstração da aplicação com angular e node rodando e claro, o CÓDIGO.",
+              "speakerNames": ["Denis Manzetti"],
+              "timeStart": "10:30 am",
+              "timeEnd": "11:00 am",
+              "tracks": ["streaming"]
+            },
+            {
+              "name": "Apps Mobile híbridas com Ionic 2",
+              "description": "Ionic é um framework open source baseado no Apache Cordova (Phonegap) que permite desenvolver apps mobile com código JavaScript/HTML/CSS e que podem ser publicados em lojas de aplicativos como Google Play e Apple Store. Hoje é um dos frameworks para desenvolvimento mobile híbrido mais usados no mercado, tento apps com top ratings inclusive na Apple Store.O Ionic utiliza o Angular em sua arquitetura, e por esse motivo, o Ionic 2 foi reescrito (pois o Angular 2 também é um framework bem diferente da sua primeira versão), e introduziu otimizações na performance, um visual e experiência mais parecido com o nativo, entre outras melhorias. Nessa palestra vamos bater um papo sobre o Ionic e também falar sobre as novas funcionalidades da nova versão.",
+              "timeStart": "11:00 am",
+              "timeEnd": "11:30 am",
+              "speakerNames": ["Loiane Groner"],
+              "tracks": ["Ionic"]
+            },
+            {
+              "name": "IoT na palma da mão - ATHENA",
+              "description": "Será demonstrado uma máquina virtual escrita em NodeJS para criação de ações customizadas em circuitos eletrônicos, como ligar ou desligar objetos. Durante a palestra será apresentado como utilizar a ATHENA em seus projetos e como tirar o maior proveito da máquina para realizar ações conforme a sua necessidade. Ao final, espero que todos os participantes tenham uma noção de como iniciar seus projetos de IoT usando NodeJS do jeito mais fácil possível.",
+              "speakerNames": ["José Wilker"],
+              "timeStart": "11:30 am",
+              "timeEnd": "12:00 pm",
+              "tracks": ["Iot"]
+            },
+            {
+              "name": "Intervalo para almoço",
+              "description": "Intervalo para almoço",
+              "timeStart": "12:00 pm",
+              "timeEnd": "1:00 pm",
+              "tracks": ["evento"]
+            },
+            {
+              "name": "Desenvolvendo Slackbots com ES6",
+              "description": "O Slack é a sensação do momento e um dos fatores desse sucesso são os bots. E você sabia que da pra desenvolver um slackbot com es6 e rodar no node? Nessa palestra você verá como desenvolver um slackbot, do inicio ao deploy. Comecem a criar slackbots também, não pecam!",
+              "speakerNames": ["José Barbosa"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:30 pm",
+              "tracks": ["Es6"]
+            },
+            {
+              "name": "Programação Funcional e Reativa na Prática",
+              "speakerNames": ["William Grasel"],
+              "description": "a ser confirmado",
+              "timeStart": "1:30 pm",
+              "timeEnd": "2:00 pm",
+              "tracks": ["Funcional"]
+            },
+            {
+              "name": "React + Redux",
+              "description": "Muito se fala sobre React hoje em dia, mas pouco se acha de material na comunidade brasileira, principalmente quando o tema é Redux. Nessa palestra vamos desmistificar isso para a comunidade dev brasileira e mostrar como é fácil começar e difícil parar.",
+              "speakerNames": ["Eliseu Codinhoto"],
+              "timeStart": "2:00 pm",
+              "timeEnd": "2:30 pm",
+              "tracks": ["React"]
+            },
+            {
+              "name": "TypeScript do MAL",
+              "description": "a confirmar.",
+              "speakerNames": ["Nicolas Takashi"],
+              "timeStart": "2:30 pm",
+              "timeEnd": "3:00 pm",
+              "tracks": ["Typescript"]
+            },
+            {
+              "name": "Coffee-break e Networking",
+              "description": "Coffee-break e Networking",
+              "timeStart": "3:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": ["evento"]
+            },
+            {
+              "name": "AST - Abstract Syntax, Motherfucking, Tree",
+              "description": "a ser confirmado.",
+              "speakerNames": ["Afonso Pacifier"],
+              "timeStart": "3:30 pm",
+              "timeEnd": "4:00 pm",
+              "tracks": ["ast"]
+            },
+            {
+              "name": "SURPRESA",
+              "description": "a ser confirmado.",
+              "speakerNames": ["Guilherme Souza"],
+              "timeStart": "4:00 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": ["surpresa"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+
+  "speakers": [
+    {
+      "name": "Loiane Groner",
+      "profilePic": "img/speakers/LoianeGroner.jpg",
+      "twitter": "loiane",
+      "about": "Possui 10+ anos de experiência em TI, Autora dos livros como: Ext JS 4 First Look, Mastering Ext JS, Entusiasta Java, Sencha e mobile híbrido (Phonegap/Ionic) e escreve para o blog loiane.com e publica aulas e cursos em loiane.trainig.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "Denis Manzetti",
+      "profilePic": "img/speakers/DenisManzetti.jpg",
+      "twitter": "ionicframework",
+      "about": "Empreendedor, desenvolvedor e formatador desde os 12 anos e é Product Head na SW Digital.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "Eliseu Codinhoto",
+      "profilePic": "img/speakers/EliseuTetudo.jpg",
+      "twitter": "ionicframework",
+      "about": "Professor no WebSchool.io e no Eu Programador.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "Erick Wendel",
+      "profilePic": "img/speakers/ErickWendel.jpg",
+      "twitter": "ionicframework",
+      "about": "Senior Software Developer na Interative e Administrador e Autor Técnico no blog NET Coders.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "William Grasel",
+      "profilePic": "img/speakers/WilliamGrasel.jpg",
+      "twitter": "ionicframework",
+      "about": " Software Engineer at VivaReal, full stack web developer.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "Nicolas Takashi",
+      "profilePic": "img/speakers/NicolasTakashi.jpg",
+      "twitter": "ionicframework",
+      "about": "Software Developer at Lambda3 e Owner da Dev4Tech.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "José Barbosa",
+      "profilePic": "img/speakers/JoseBarbosa.jpg",
+      "twitter": "ionicframework",
+      "about": "Programador na UnLine e Lambda3, é mochileiro, desenvolvedor full-stack e agilista... Desenvolve pra windows phone também.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "José Wilker",
+      "profilePic": "img/speakers/JoseWilker.jpg",
+      "twitter": "ionicframework",
+      "about": "Desenvolvedor, Empreendedor, Maker e Gamer. Se envolve com tecnologia desde 1996 e com a comunidade de PHP desde 2004, atuando em setores como Educação, Saúde, Telecomunicações, Recursos humanos entre outros com ênfase em melhoria de processos e desenvolvimento de soluções para a web.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "Afonso Pacifier",
+      "profilePic": "img/speakers/AfonsoPacifer.jpg",
+      "twitter": "ionicframework",
+      "about": "Desenvolvedor de Front-End, evangelista de CSS e viciado em sistemas open source.",
+      "location": "Everywhere"
+    },
+    {
+      "name": "Guilherme Souza",
+      "profilePic": "img/speakers/GuilhermeSouza.jpg",
+      "twitter": "ionicframework",
+      "about": "Product Engineer na Sprinklr e CTO & Founder na Learning Hub.",
+      "location": "Everywhere"
+    }
+  ],
+
+
+  "map": [
+    {
+      "name": "PUC Consolação",
+      "lat": -23.548549,
+      "lng": -46.649762,
+      "center": true
+    }
+  ]
+
+}
