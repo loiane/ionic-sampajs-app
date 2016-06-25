@@ -2,6 +2,7 @@ import {Component, ViewChild} from '@angular/core';
 import {ionicBootstrap, Platform, Nav} from 'ionic-angular';
 import {StatusBar, Splashscreen} from 'ionic-native';
 import {ConferenceData} from './providers/conference-data';
+import {UserData} from './providers/user-data';
 import {TabsPage} from './pages/tabs/tabs';
 
 interface PageObj {
@@ -70,6 +71,6 @@ class ConferenceApp {
 // See the theming docs for the default values:
 // http://ionicframework.com/docs/v2/theming/platform-specific-styles/
 
-ionicBootstrap(ConferenceApp, [ConferenceData], {
+ionicBootstrap(ConferenceApp, [ConferenceData, UserData], {
   tabbarPlacement: 'bottom'
 });

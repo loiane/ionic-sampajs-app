@@ -22,9 +22,8 @@
               "tracks": ["evento"]
             },
             {
-              "name": "Gerenciando fluxo assíncrono no NodeJS",
-              "description": "Ao construir aplicações Javascript, devemos nos preocupar com alguns fatores quando falamos do workflow da linguagem. Diferente das linguagens sequenciais, os resultados tendem a ser inesperados (tempos de execução diferentes) pelo fato de ser assincrono e dependerem de callbacks, aprenderemos nesta palestra as boas práticas e soluções para criação de aplicações NodeJS.",
-              "speakerNames": ["Erick Wendel"],
+              "name": "Jurassic JavaScript Park - Rodando offline até na Ilha Nublar!",
+              "speakerNames": ["Eduardo Matos"],
               "timeStart": "10:00 am",
               "timeEnd": "10:30 am",
               "tracks": ["NodeJS"]
@@ -71,7 +70,6 @@
             {
               "name": "Programação Funcional e Reativa na Prática",
               "speakerNames": ["William Grasel"],
-              "description": "a ser confirmado",
               "timeStart": "1:30 pm",
               "timeEnd": "2:00 pm",
               "tracks": ["Funcional"]
@@ -86,7 +84,6 @@
             },
             {
               "name": "TypeScript do MAL",
-              "description": "a confirmar.",
               "speakerNames": ["Nicolas Takashi"],
               "timeStart": "2:30 pm",
               "timeEnd": "3:00 pm",
@@ -101,7 +98,6 @@
             },
             {
               "name": "AST - Abstract Syntax, Motherfucking, Tree",
-              "description": "a ser confirmado.",
               "speakerNames": ["Afonso Pacifier"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:00 pm",
@@ -109,7 +105,7 @@
             },
             {
               "name": "SURPRESA",
-              "description": "a ser confirmado.",
+              "description": "Surpresa.",
               "speakerNames": ["Guilherme Souza"],
               "timeStart": "4:00 pm",
               "timeEnd": "5:00 pm",
@@ -145,10 +141,10 @@
       "location": "Everywhere"
     },
     {
-      "name": "Erick Wendel",
-      "profilePic": "img/speakers/ErickWendel.jpg",
+      "name": "Eduardo Matos",
+      "profilePic": "img/speakers/EduardoMatos.jpg",
       "twitter": "ionicframework",
-      "about": "Senior Software Developer na Interative e Administrador e Autor Técnico no blog NET Coders.",
+      "about": "Programador Front-end no BankFacil e Fullstack Developerna Medicina.",
       "location": "Everywhere"
     },
     {
